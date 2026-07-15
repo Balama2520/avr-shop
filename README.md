@@ -1,13 +1,13 @@
-# avr-shop| Farmer's All-in-One Platform 🚜
+# Agri-Link | Farmer's All-in-One Platform 🚜
 
-A production-ready, cloud-native E-commerce + AI Assistant platform for farmers to explore fertilisers, pesticides and get expert advice.
+A production-ready, cloud-native E-commerce + AI Assistant platform for farmers to explore fertilizers, pesticides, and get expert advice.
 
 ## 📁 Project Structure
-- **/frontend**: Next.js 16 (React) application. Styled with Tailwind CSS 4.
+- **/frontend**: Next.js 16 (React) application. Styled with TailwindCSS 4.
 - **/backend**: FastAPI (Python) backend with AI & Product API routes.
 
 ## ✨ Core Features
-- **Product Catalogue **: Fetch fertilisers and pesticides from the backend.
+- **Product Catalog**: Fetch fertilizers and pesticides from the backend.
 - **Dosage Calculator**: Smart calculations based on land area (Acres/Hectares).
 - **AI Advisor**: Real-time agricultural support powered by Mistral/HuggingFace.
 - **Premium UI**: Mobile-first, high-visibility design for field use.

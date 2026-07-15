@@ -1,0 +1,13 @@
+{
+    "name": "agri-link-platform",
+    "version": "1.0.0",
+    "scripts": {
+        "install:all": "npm install --prefix frontend && cd backend && python -m venv venv && .\\venv\\Scripts\\Activate.ps1 && pip install -r requirements.txt",
+        "dev:frontend": "npm run dev --prefix frontend",
+        "dev:backend": "cd backend && venv\\Scripts\\python.exe -m uvicorn main:app --reload --port 8000",
+        "dev": "npx concurrently \"npm run dev:frontend\" \"npm run dev:backend\""
+    },
+    "dependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
